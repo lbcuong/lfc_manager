@@ -1,0 +1,136 @@
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scroll 
+{
+  height: 985px;
+  overflow-y: scroll; /* Add the ability to scroll */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll::-webkit-scrollbar 
+{
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll 
+{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.btn-default:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+
+.button_custom:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+
+.button_custom:hover
+{
+    color: red;
+}
+
+span {
+    position: relative;
+    transition: 0.5s;
+    color: white;
+}
+  
+span:after {
+    content: '\22D9';
+    position: absolute;
+    opacity: 0;
+    right: -10px;
+    transition: 0.5s;
+}
+  
+span:hover {
+    padding-right: 35px;
+    text-decoration: underline;
+}
+  
+span:hover:after {
+    opacity: 1;
+    right: 0;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   {color: white;}
+    50%  {color: rgb(145, 35, 35);}
+  }
+
+.close:focus
+{
+    outline: none;
+    box-shadow: none;   
+}
+
+.card_custom
+{
+ background-color: rgb(145, 35, 35);
+}
+
+.fa
+{
+    font-size: 30px;
+}
+
+.fa:hover 
+{
+    opacity: 0.7;
+    color: brown;
+}
+
+.fa-facebook 
+{
+    background: white;
+    color: red;
+}
+
+.fa-twitter {
+    background: white;
+    color: red;
+}
+.fa-youtube {
+    background: white;
+    color: red;
+}
+
+.fa-instagram {
+    background: white;
+    color: red;
+}
+.fa-snapchat-ghost {
+    background: white;
+    color: red;
+}
+.fa-spotify
+{
+    background: white;
+    color: red;
+}
+
+.user_img:hover
+{
+    background-color: rgb(184, 170, 170);
+}
+.item:hover
+{
+    background-color: rgb(238, 238, 238);
+}

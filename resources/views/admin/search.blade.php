@@ -1,0 +1,2 @@
+<input class="form-control my-2 border-0 search_bar" id="input" type="text" placeholder="Search Player">
+<button type="submit" class="btn btn-default btn_hover text-danger search_button"><i class="fa fa-search"></i></button>
